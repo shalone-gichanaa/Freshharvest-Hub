@@ -87,7 +87,7 @@ button:hover {
   transform: scale(1.05);
 }
 
-/
+
 #produceList {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
