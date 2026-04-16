@@ -8,6 +8,7 @@ const produce = [
   { name: "Sweet Bananas", price: 120 }
 ];
 
+
 // display produce if we're on home page
 const produceList = document.getElementById("produceList");
 
