@@ -1,6 +1,3 @@
-/* =========================
-   GLOBAL STYLES
-========================= */
 body {
   margin: 0;
   font-family: "Poppins", "Segoe UI", sans-serif;
@@ -8,9 +5,6 @@ body {
   color: #1f2d1f;
 }
 
-/* =========================
-   HEADER
-========================= */
 h1 {
   margin: 0;
   padding: 20px;
@@ -59,9 +53,7 @@ h2 {
   color: #2e7d32;
 }
 
-/* =========================
-   INPUTS
-========================= */
+
 input {
   padding: 12px;
   width: 260px;
@@ -77,9 +69,7 @@ input:focus {
   box-shadow: 0 0 5px rgba(67,160,71,0.3);
 }
 
-/* =========================
-   BUTTONS
-========================= */
+
 button {
   padding: 12px 18px;
   margin-left: 5px;
@@ -97,9 +87,7 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* =========================
-   PRODUCE GRID
-========================= */
+/
 #produceList {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -109,9 +97,7 @@ button:hover {
   margin: auto;
 }
 
-/* =========================
-   CARDS (IMPORTANT)
-========================= */
+
 .card {
   background: white;
   border-radius: 15px;
@@ -135,9 +121,7 @@ button:hover {
   color: #555;
 }
 
-/* =========================
-   ORDERS SECTION
-========================= */
+
 #vendorOrders,
 #customerOrders {
   max-width: 600px;
