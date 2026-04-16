@@ -80,8 +80,6 @@ freshharvest-hub/
 - ✔ Clean code structure  
 - ✔ Styling and user experience  
 
-
-
 ## Future Improvements
 
 - Connect to a real backend API for live produce data  
