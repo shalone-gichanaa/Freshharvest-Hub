@@ -1,0 +1,157 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+body {
+  margin: 0;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background: #f6fbf6;
+  color: #1f2d1f;
+}
+
+/* =========================
+   HEADER
+========================= */
+h1 {
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #1b5e20, #43a047);
+  color: white;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  margin-top: 5px;
+  color: #e0e0e0;
+  font-size: 14px;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: white;
+  padding: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #e8f5e9;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+h2 {
+  margin-top: 25px;
+  font-size: 22px;
+  color: #2e7d32;
+}
+
+/* =========================
+   INPUTS
+========================= */
+input {
+  padding: 12px;
+  width: 260px;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #43a047;
+  box-shadow: 0 0 5px rgba(67,160,71,0.3);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+button {
+  padding: 12px 18px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 10px;
+  background: #43a047;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2e7d32;
+  transform: scale(1.05);
+}
+
+/* =========================
+   PRODUCE GRID
+========================= */
+#produceList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* =========================
+   CARDS (IMPORTANT)
+========================= */
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+.card h3 {
+  margin: 0;
+  color: #2e7d32;
+}
+
+.card p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+/* =========================
+   ORDERS SECTION
+========================= */
+#vendorOrders,
+#customerOrders {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+#vendorOrders p,
+#customerOrders p {
+  background: white;
+  padding: 12px;
+  margin: 8px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bulk Orders - FreshHarvest Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🌿 FreshHarvest Hub</h1>
+
+  <nav>
+    <a href="index.html">Produce</a>
+    <a href="vendors.html">Bulk Orders</a>
+    <a href="customers.html">Buy</a>
+  </nav>
+
+  <h2>Bulk Orders (For Vendors)</h2>
+
+  <form id="vendorForm">
+    <input type="text" id="vendorProduct" placeholder="Product name" required>
+    <input type="number" id="vendorQty" placeholder="Quantity (kg)" required>
+    <button type="submit">Place Order</button>
+  </form>
+
+  <div id="vendorOrders"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
